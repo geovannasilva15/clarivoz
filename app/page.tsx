@@ -73,7 +73,7 @@ export default function Home() {
   function processImage() { setIsProcessing(true); window.setTimeout(() => { setIsProcessing(false); setScanReady(true); }, 1100); }
   function simplify() { setIsProcessing(true); window.setTimeout(() => { setIsProcessing(false); setSimpleText("Você precisa atualizar seu cadastro em até 30 dias. Leve os documentos que comprovam suas informações."); }, 850); }
   function startDictation() {
-    const SpeechRecognition = (window as typeof window & { webkitSpeechRecognition?: new () => { lang: string; interimResults: boolean; start: () => void; onresult: (e: { results: { 0: { 0: { transcript: string } } }[] }) => void; onerror: () => void } }).webkitSpeechRecognition;
+    const SpeechRecognition = (window as typeof window & { webkitSpeechRecognition?: new () => { lang: string; interimResults: boolean; start: () => void; onresult: (e: { results: { 0: { transcript: string } }[] }) => void; onerror: () => void } }).webkitSpeechRecognition;
     if (!SpeechRecognition) { setDictation("O recurso de voz depende da permissão do navegador. Neste protótipo, você também pode digitar aqui."); return; }
     const recognition = new SpeechRecognition(); recognition.lang = "pt-BR"; recognition.interimResults = false;
     recognition.onresult = e => setDictation(e.results[0][0].transcript); recognition.onerror = () => setDictation("Não consegui ouvir. Toque no microfone e tente novamente."); recognition.start();
