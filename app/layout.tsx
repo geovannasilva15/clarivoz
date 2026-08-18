@@ -4,7 +4,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "ClariVoz — Aplicativo Acessível",
   description: "Tecnologia que transforma informação em autonomia.",
-  other: { "codex-preview": "development" },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 
