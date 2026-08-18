@@ -40,7 +40,7 @@ O ClariVoz explora uma experiência baseada em voz, linguagem simples e controle
 Requisitos: Node.js 22.13 ou superior.
 
 ```bash
-git clone https://github.com/SEU-USUARIO/clarivoz.git
+git clone https://github.com/geovannasilva15/clarivoz.git
 cd clarivoz
 npm install
 npm run dev
