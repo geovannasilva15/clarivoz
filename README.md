@@ -4,8 +4,6 @@
 
 O **ClariVoz** é um protótipo de tecnologia assistiva criado para facilitar o acesso à informação por pessoas com baixa alfabetização, dificuldades de leitura, idosos e usuários que preferem interações por voz.
 
-🔗 **Demonstração:** [clarivoz-app.corujarh-3863.chatgpt.site](https://clarivoz-app.corujarh-3863.chatgpt.site)
-
 ## Problema
 
 Informações essenciais ainda dependem de textos complexos: receitas médicas, comunicados, formulários, mensagens e orientações de serviços. Essa barreira pode reduzir a autonomia e aumentar a dependência de outras pessoas.
@@ -24,20 +22,19 @@ O ClariVoz explora uma experiência baseada em voz, linguagem simples e controle
 - Navegação responsiva para celular e computador;
 - Suporte a teclado e preferência por movimento reduzido.
 
-> A leitura de imagens e a simplificação de textos são simuladas nesta versão. A integração com OCR e modelos de IA faz parte da próxima etapa.
+> A leitura de imagens e a simplificação de textos são simuladas nesta versão. A integração com OCR e processamento de linguagem faz parte da próxima etapa.
 
 ## Tecnologias
 
 - React 19
 - TypeScript
-- Next.js / Vinext
+- Next.js
 - CSS responsivo
 - Web Speech API
-- Cloudflare Workers
 
 ## Executar localmente
 
-Requisitos: Node.js 22.13 ou superior.
+Requisitos: Node.js 20 ou superior.
 
 ```bash
 git clone https://github.com/geovannasilva15/clarivoz.git
@@ -60,7 +57,7 @@ app/
 ## Próximas etapas
 
 - Integrar OCR para extrair texto real de imagens;
-- Conectar um modelo de IA para linguagem simples;
+- Integrar um serviço de simplificação para linguagem clara;
 - Adicionar explicação de palavras por áudio;
 - Permitir uso offline das funções essenciais;
 - Realizar testes de usabilidade com o público-alvo;
@@ -76,7 +73,7 @@ app/
 
 ## Autoria
 
-Desenvolvido por **Geovanna Eduarda da Silva** como projeto de impacto social, acessibilidade e Inteligência Artificial aplicada.
+Desenvolvido por **Geovanna Eduarda da Silva** como projeto de impacto social, acessibilidade e tecnologia assistiva.
 
 ## Licença
 
