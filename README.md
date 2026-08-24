@@ -12,6 +12,9 @@
 
 </div>
 
+![Visão explicativa do projeto ClariVoz](assets/readme-project-overview.svg)
+
+
 ![Tela inicial do ClariVoz](docs/screenshots/inicio.png)
 
 ## Sobre o projeto
