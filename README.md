@@ -1,82 +1,59 @@
 <div align="center">
-  <img src="public/favicon.svg" width="72" height="72" alt="Símbolo do ClariVoz">
-  <h1>ClariVoz</h1>
-  <p><strong>Tecnologia que transforma informação em autonomia.</strong></p>
-  <p>
-    <a href="https://geovannasilva15.github.io/clarivoz/">Abrir o protótipo</a>
-    ·
-    <a href="#funcionalidades">Funcionalidades</a>
-    ·
-    <a href="#executar-localmente">Executar localmente</a>
-  </p>
+
+<img src="public/favicon.svg" width="76" alt="Símbolo do ClariVoz" />
+
+# ClariVoz
+
+### Tecnologia que transforma informação em autonomia
+
+[![Protótipo](https://img.shields.io/badge/Acessar_protótipo-Online-0F766E?style=for-the-badge&logo=githubpages&logoColor=white)](https://geovannasilva15.github.io/clarivoz/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
+[![Acessibilidade](https://img.shields.io/badge/Foco-Acessibilidade-7C3AED?style=for-the-badge)](#)
+
 </div>
 
 ![Tela inicial do ClariVoz](docs/screenshots/inicio.png)
 
 ## Sobre o projeto
 
-O **ClariVoz** é um protótipo de tecnologia assistiva criado para facilitar o acesso à informação por pessoas com baixa alfabetização, dificuldades de leitura, idosos e usuários que preferem interações por voz.
+O **ClariVoz** é um protótipo de tecnologia assistiva pensado para pessoas com baixa alfabetização, dificuldades de leitura, idosos e usuários que precisam compreender conteúdos digitais com mais facilidade.
 
-Informações importantes ainda chegam em textos complexos, como receitas médicas, comunicados, formulários e orientações de serviços. O projeto propõe uma experiência acolhedora baseada em voz, linguagem simples e controles visuais acessíveis.
-
-## Experiência do protótipo
-
-| Linguagem simples | Preferências de acessibilidade |
-| --- | --- |
-| ![Texto simplificado no ClariVoz](docs/screenshots/texto-simplificado.png) | ![Preferências de acessibilidade do ClariVoz](docs/screenshots/acessibilidade.png) |
+A experiência permite ouvir textos, simplificar conteúdos e adaptar a apresentação visual, promovendo mais independência no acesso à informação.
 
 ## Funcionalidades
 
-- Leitura da interface em voz alta;
-- Seleção de imagem para demonstrar a leitura de documentos;
-- Simplificação demonstrativa de textos complexos;
-- Ditado por voz quando o navegador oferece suporte;
-- Histórico de leituras e mensagens;
-- Ajuste do tamanho do texto;
-- Modo de alto contraste;
-- Navegação responsiva para celular e computador;
-- Suporte a teclado e preferência por movimento reduzido.
+- Leitura de texto em voz alta
+- Simplificação de textos complexos
+- Controles de tamanho e contraste
+- Navegação clara e responsiva
+- Recursos de acessibilidade reunidos em uma única experiência
+- Processamento local demonstrativo, sem cadastro obrigatório
 
-> A leitura de imagens e a simplificação são demonstrativas nesta versão. A integração com OCR e processamento de linguagem faz parte da evolução do produto.
+## Demonstração visual
+
+| Início | Texto simplificado |
+|---|---|
+| ![Página inicial](docs/screenshots/inicio.png) | ![Texto simplificado](docs/screenshots/texto-simplificado.png) |
+
+![Recursos de acessibilidade](docs/screenshots/acessibilidade.png)
 
 ## Tecnologias
 
-- Next.js 16
-- React 19
-- TypeScript
-- CSS responsivo
-- Web Speech API
-- GitHub Pages
+Next.js 16, React 19, TypeScript, Tailwind CSS 4 e Web Speech API.
 
 ## Executar localmente
 
-Requisitos: Node.js 20 ou superior.
-
 ```bash
-git clone https://github.com/geovannasilva15/clarivoz.git
-cd clarivoz
 npm install
 npm run dev
 ```
 
-Abra o endereço informado no terminal.
+Acesse `http://localhost:3000`.
 
-## Qualidade e acessibilidade
+## Impacto esperado
 
-O projeto prioriza linguagem respeitosa, hierarquia visual clara, alvos de toque amplos, navegação por teclado, contraste configurável e controles com rótulos descritivos.
-
-## Próximas etapas
-
-- Integrar OCR para extrair texto real de imagens;
-- Conectar um serviço de simplificação para linguagem clara;
-- Permitir o uso offline das funções essenciais;
-- Realizar testes de usabilidade com o público-alvo;
-- Ampliar os controles de privacidade e exclusão de dados.
+O projeto explora como interfaces inclusivas podem reduzir barreiras de leitura e devolver autonomia a pessoas que muitas vezes dependem de terceiros para compreender informações digitais.
 
 ## Autoria
 
-Desenvolvido por **Geovanna Eduarda da Silva** como projeto de impacto social, acessibilidade e tecnologia assistiva.
-
-## Licença
-
-Distribuído sob a licença MIT. Consulte [LICENSE](LICENSE).
+Desenvolvido por **[Geovanna Eduarda da Silva](https://github.com/geovannasilva15)**.
