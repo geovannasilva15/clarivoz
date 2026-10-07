@@ -29,11 +29,17 @@ O ClariVoz é um protótipo de tecnologia assistiva pensado para pessoas com dif
 ## Executar localmente
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
 Acesse `http://localhost:3000`.
+
+Para executar lint, verificação de tipos e build de produção:
+
+```bash
+npm run check
+```
 
 ## Autoria
 
